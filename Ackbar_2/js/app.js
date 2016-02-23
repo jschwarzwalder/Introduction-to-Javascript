@@ -1,0 +1,3 @@
+
+	$(".warning").hide().show("slow");
+
