@@ -11,9 +11,15 @@
 <script>
 $(document).ready(function() {
   $('#nights').on('keyup', function() {
+    var nights = +$(this).val();
+    var dailyPrice = +$(this).closest(".tour").data("daily-price");
+    $('#total').text(nights * dailyPrice);
     $('#nights-count').text($(this).val());
-    $('#total').text($(this).closest('.tour').data('daily-price') * $(this).val());
+  });
+  $('#nights').on('focus', function() {
+    $(this).val(7);
   });
 });
+
 
 </script>
