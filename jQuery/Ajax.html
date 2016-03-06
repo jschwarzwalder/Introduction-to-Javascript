@@ -1,0 +1,17 @@
+<div id="tour" data-location="london">
+  <button>Get Photos</button>
+  <ul class="photos">
+
+  </ul>
+</div>
+<script>
+$(document).ready(function() { 
+  $('#tour').on('click', 'button', function() { 
+    $.ajax('photos.html', {
+      success: function(response){
+        $('.photos').html(response).fadeIn();
+      }
+    });
+  });
+});
+</script>
