@@ -11,9 +11,8 @@
 <script>
 $(document).ready(function() {
   $('#nights').on('keyup', function() {
-    var night = +$(this).val();
-		$('#nights-count').text(night);
-    
+    $('#nights-count').text($(this).val());
+    $('#total').text($(this).closest('.tour').data('daily-price') * $(this).val());
   });
 });
 
