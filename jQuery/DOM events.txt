@@ -19,11 +19,17 @@
 </div>
 <script>
 $(document).ready(function() {
-  $(document).ready(function() { 
-  $("#tour").on('click', 'button', function() { 
+  $('#tour').on('click', 'button', function() {
     $('.photos').slideToggle();
   });
+  $('.photos').on('mouseenter', 'li', function() {
+    $(this).find('span').slideToggle();
+  });
+  $('.photos').on('mouseleave', 'li', function() {
+    $(this).find('span').slideToggle();
+  });
 });
+
 
 
 </script>
