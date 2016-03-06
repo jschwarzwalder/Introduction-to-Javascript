@@ -8,3 +8,13 @@
     <input type="number" id="nights" value="7">
   </p>
 </div>
+<script>
+$(document).ready(function() {
+  $('#nights').on('keyup', function() {
+    var night = +$(this).val();
+		$('#nights-count').text(night);
+    
+  });
+});
+
+</script>
