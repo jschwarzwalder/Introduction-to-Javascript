@@ -18,8 +18,10 @@
   </ul>
 </div>
 <script>
-$(document).ready(function(){
-  var img = $("img").length;
-	alert(img);
+$(document).ready(function() {
+  $('#tour').on('click', 'button', function(){
+	 $(this).closest('#tour').find('.photos').slideDown();
+  });
 });
+
 </script>
