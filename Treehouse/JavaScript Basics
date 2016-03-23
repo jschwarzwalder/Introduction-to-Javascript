@@ -1,0 +1,74 @@
+
+var day = prompt( "What day is it?");
+document.write("Today is " + day);
+-----------------------------------------
+var firstName = "J";
+var lastName = "Smith";
+var fullName = firstName + lastName;
+-----------------------------------------
+var wholesalePrice = 5.45;
+var retailPrice = 9.99;
+var quantity = 47;
+
+var salesTotal = retailPrice * quantity;
+var profit = salesTotal - (wholesalePrice * quantity);
+var profitPerUnit = profit/quantity;
+-----------------------------------------
+var width = '190px';
+var numOfDivs = 10;
+
+var totalWidth = parseInt(width) * numOfDivs;
+
+var temperature = 37.5;
+alert(Math.round(temperature));//round up
+alert(Math.floor(temperature));//lowest integer
+-----------------------------------------
+var dieRoll = Math.floor(Math.random()* 6) +1;
+-----------------------------------------
+var answer = prompt('What is the best programming language?');
+
+if (answer === "JavaScript" || answer === 'javascript') {
+  alert('You are correct');
+} else {
+  alert('JavaScript is the best language!');
+}
+-----------------------------------------
+var a = 10;
+var b = 20;
+var c = 30;
+
+if (a > b) {
+  alert('a is greater than b');
+} else {
+ alert('a is NOT greater than b');
+}
+-----------------------------------------
+if (true ) {
+    alert('This is true');
+} else {
+    alert('This is false');
+}
+-----------------------------------------
+var isAdmin = true;
+var isStudent = false;
+
+if (isAdmin) {
+  alert('Welcome administrator');
+}else if (isStudent) {
+  alert('Welcome student')
+} else {
+  prompt('Who are you?')
+}
+-----------------------------------------
+
+
+
+Jami Schwarzwalder
+Teen Librarian
+South Hill Pierce County Library
+15420 Meridian E
+South Hill, WA 98375
+Direct: (253) 548-3556
+Main: (253) 548-3303
+jschwarzwalder@piercecountylibrary.org
+www.piercecountylibrary.org
