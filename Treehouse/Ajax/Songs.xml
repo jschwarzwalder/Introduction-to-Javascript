@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<songs>
+  <song>
+    <title>Lord of the Rings Soundtrack</title>
+    <artist>Howard Shore</artist>
+  </song>
+  <song>
+    <title>Titantic Soundtrack</title>
+    <artist>James Horner </artist>
+  </song>
+   <song>
+    <title>Hello</title>
+    <artist>Adele</artist>
+  </song>
+   <song>
+    <title>My Immortal</title>
+    <artist>Evanescence</artist>
+  </song>
+</songs>
